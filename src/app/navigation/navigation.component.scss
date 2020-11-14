@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    gap: 16px;
+    background-color: #12232e;
+    border-radius: 12px;
+}
+
+.logo {
+    grid-column: 3/5;
+    margin-top: 6px;
+}
+
+.navigation {
+    grid-column: 7/11;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.nav-point {
+    margin-left: 32px;
+    color: #fff;
+    font-size: 24px;
+}

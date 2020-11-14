@@ -2,6 +2,7 @@
   "name": "my-website",
   "version": "0.0.0",
   "scripts": {
+    "ng devStart": "ng serve --host 0.0.0.0",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
