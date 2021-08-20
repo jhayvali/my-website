@@ -11,6 +11,6 @@ export class NavigationComponent implements OnInit {
     constructor() {}
 
     ngOnInit(): void {
-        this.navPoints = ['navi1', 'navi2', 'navi3', 'navi4'];
+        this.navPoints = ['nav1', 'nav2', 'nav3', 'nav4'];
     }
 }
